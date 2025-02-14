@@ -89,25 +89,35 @@ on:
       - main
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
+build:
+runs-on: ubuntu-latest
+  steps:
+    - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Build website
+    - name: Build website
         run: npm run build
 
 name: Deploy Website: Name of the workflow.
+
 on:: Specifies what triggers the workflow.
+
 push:: Runs when changes are pushed.
+
 branches: main: Runs only on the main branch.
+
 jobs:: Contains the tasks to execute.
+
 runs-on: ubuntu-latest: Uses Ubuntu for the workflow environment.
+
 steps:: Defines actions the workflow will perform.
+
 Checkout repository: Pulls the repository into the workflow environment.
+
 uses: actions/checkout@v2: Prebuilt GitHub action to clone the repo.
+
 Build website: Step to build the project.
+
 run: npm run build: Executes the build command.
 
 ### Q6
