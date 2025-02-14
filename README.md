@@ -81,7 +81,6 @@ GitHub Pages is a free hosting service provided by GitHub to publish static webs
 
 GitHub Actions is a CI/CD tool provided by GitHub to automate workflows like building, testing, and deploying projects. Here's an example of a yml file:
 
-<!--
 name: Deploy Website
 
 on:
@@ -98,7 +97,18 @@ jobs:
 
       - name: Build website
         run: npm run build
--->
+
+name: Deploy Website: Name of the workflow.
+on:: Specifies what triggers the workflow.
+push:: Runs when changes are pushed.
+branches: main: Runs only on the main branch.
+jobs:: Contains the tasks to execute.
+runs-on: ubuntu-latest: Uses Ubuntu for the workflow environment.
+steps:: Defines actions the workflow will perform.
+Checkout repository: Pulls the repository into the workflow environment.
+uses: actions/checkout@v2: Prebuilt GitHub action to clone the repo.
+Build website: Step to build the project.
+run: npm run build: Executes the build command.
 
 ### Q6
 
