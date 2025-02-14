@@ -89,13 +89,13 @@ on:
       - main
 
 jobs:
-build:
-runs-on: ubuntu-latest
-  steps:
-    - name: Checkout repository
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
         uses: actions/checkout@v2
 
-    - name: Build website
+      - name: Build website
         run: npm run build
 
 name: Deploy Website: Name of the workflow.
