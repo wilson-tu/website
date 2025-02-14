@@ -54,7 +54,7 @@ For this task, please include your answers for the questions described in [Lab 4
 
 ### Q1
 
-## Project Repository | NOTE: I made all my commits and changes on this repository, and then I cloned everything into the repository link below. It would allow me to import this repo for some reason.
+## Project Repository | NOTE: I made all my commits and changes on this repository, and then I cloned everything into the repository link below. I believe the commit history should be visible on the repo link, but this repo has it for sure.
 [Link to Project Repository](https://github.com/wilson-tu/wilson-tu.git)
 
 ## Deployed Website
