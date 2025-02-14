@@ -55,10 +55,10 @@ For this task, please include your answers for the questions described in [Lab 4
 ### Q1
 
 ## Project Repository | NOTE: I made all my commits and changes on this repository, and then I cloned everything into the repository link below. It would allow me to import this repo for some reason.
-[Link to Project Repository](https://github.com/wilson-tu/my-website)
+[Link to Project Repository](https://github.com/wilson-tu/wilson-tu.git)
 
 ## Deployed Website
-[Link to Website](https://wilson-tu.github.io/my-website)
+[Link to Website](https://wilson-tu.github.io/wilson-tu/)
 
 ### Q2
 
@@ -79,8 +79,9 @@ GitHub Pages is a free hosting service provided by GitHub to publish static webs
 
 ### Q5
 
-GitHub Actions is a CI/CD tool provided by GitHub to automate workflows like building, testing, and deploying projects. Here's an example of a `.yml` file:
-```yml
+GitHub Actions is a CI/CD tool provided by GitHub to automate workflows like building, testing, and deploying projects. Here's an example of a yml file:
+
+<!--
 name: Deploy Website
 
 on:
@@ -97,6 +98,7 @@ jobs:
 
       - name: Build website
         run: npm run build
+-->
 
 ### Q6
 
