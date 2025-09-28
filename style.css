@@ -174,14 +174,6 @@ html, body {
   margin-top: 20px;
 }
 
-.sidebar-bottom {
-  grid-column: 1 / 2;
-}
-
-.sidebar-bottom-right {
-  grid-column: 3 / 4;
-}
-
 .main-content {
   grid-column: 2 / 3;
   display: grid;
@@ -393,14 +385,6 @@ html, body {
   transition: transform 0.3s ease-in-out;
 }
 
-.group img[alt="C"] {
-  transform: scale(1.15);
-}
-
-.group img[alt="Node.js"] {
-  transform: scale(1.5);
-}
-
 @keyframes scrolling {
   0% { transform: translateX(0); }
   100% { transform: translateX(-100%); }
@@ -425,6 +409,10 @@ html, body {
 
 .contact-icons img:hover {
   transform: scale(1.1);
+}
+
+.group img:hover {
+  transform: scale(0.9);
 }
 
 /** test **/
