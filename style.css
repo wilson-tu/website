@@ -22,7 +22,7 @@ html, body {
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: auto auto auto;
   gap: 10px;
-  max-width: 1500px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
