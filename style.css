@@ -17,6 +17,18 @@ html, body {
   overflow-y: auto;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scrollbar-width: none;
+}
+
+body {
+  -ms-overflow-style: none;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
