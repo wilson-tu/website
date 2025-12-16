@@ -21,8 +21,13 @@ html, body {
   overflow-x: hidden;
 }
 
-::-webkit-scrollbar {
+body::-webkit-scrollbar {
   display: none;
+}
+
+body {
+  scrollbar-width: none;     
+  -ms-overflow-style: none;    
 }
 
 html {
@@ -135,6 +140,35 @@ body {
 
 .linux-image {
   width: 75%;
+}
+
+.scroll-box {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 420px;   
+  height: 350px;        
+  padding: 12px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border: 2px solid #888;
+  background: #f6f6f6;
+  font-family: monospace;
+  font-size: 14px;
+  color: #000;
+}
+
+.scroll-box::-webkit-scrollbar {
+  width: 10px;
+}
+
+.scroll-box::-webkit-scrollbar-track {
+  background: #000;
+  border-left: 2px solid #888;
+}
+
+.scroll-box::-webkit-scrollbar-thumb {
+  background: #aaa;
+  border: 2px solid #444;
 }
 
 .tv {
