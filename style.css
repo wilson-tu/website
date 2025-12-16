@@ -74,7 +74,6 @@ body {
   box-shadow: 0 0 10px #00ffff;
 }
 
-/* header */
 .header {
   position: relative;
   grid-column: 1 / 4;
