@@ -604,3 +604,7 @@ body::after {
   object-fit: cover;
   border: 2px solid #ffcc00;
 }
+
+.pline {
+  line-height: 1.6;
+}
