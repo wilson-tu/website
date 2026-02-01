@@ -587,7 +587,7 @@ body::after {
   padding: 10px;
   color: #fff;
   box-shadow: 0 0 8px #0ff;
-  border-radius: 8px;
+  border-radius: 5px;
   transition: transform 0.2s ease;
   text-align: center;
 }
